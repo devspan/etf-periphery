@@ -1,7 +1,7 @@
 pragma solidity >=0.5.0;
 
-import '@etfswap/v2-core/contracts/interfaces/IEtfswapV2Pair.sol';
-import '@etfswap/lib/contracts/libraries/FixedPoint.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etf-core/refs/heads/main/contracts/EtfswapV2Pair.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etfswap-lib/refs/heads/main/contracts/libraries/FixedPoint.sol';
 
 // library with helper methods for oracles that are concerned with computing average prices
 library EtfswapV2OracleLibrary {

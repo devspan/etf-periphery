@@ -1,9 +1,9 @@
 pragma solidity >=0.5.0;
 
-import '@etfswap/v2-core/contracts/interfaces/IEtfswapV2Pair.sol';
-import '@etfswap/v2-core/contracts/interfaces/IEtfswapV2Factory.sol';
-import '@etfswap/lib/contracts/libraries/Babylonian.sol';
-import '@etfswap/lib/contracts/libraries/FullMath.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etf-core/refs/heads/main/contracts/EtfswapV2Pair.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etf-core/refs/heads/main/contracts/interfaces/IEtfswapV2Factory.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etfswap-lib/refs/heads/main/contracts/libraries/Babylonian.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etfswap-lib/refs/heads/main/contracts/libraries/FullMath.sol';
 
 import './SafeMath.sol';
 import './EtfswapV2Library.sol';

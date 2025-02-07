@@ -1,6 +1,6 @@
 pragma solidity =0.6.6;
 
-import '@etfswap/v2-core/contracts/interfaces/IEtfswapV2Callee.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etf-core/refs/heads/main/contracts/interfaces/IEtfswapV2Callee.sol';
 
 import '../libraries/EtfswapV2Library.sol';
 import '../interfaces/V1/IEtfswapV1Factory.sol';

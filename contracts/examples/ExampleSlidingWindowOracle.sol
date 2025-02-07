@@ -1,8 +1,8 @@
 pragma solidity =0.6.6;
 
-import '@etfswap/v2-core/contracts/interfaces/IEtfswapV2Factory.sol';
-import '@etfswap/v2-core/contracts/interfaces/IEtfswapV2Pair.sol';
-import '@etfswap/lib/contracts/libraries/FixedPoint.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etf-core/refs/heads/main/contracts/interfaces/IEtfswapV2Factory.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etf-core/refs/heads/main/contracts/EtfswapV2Pair.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etfswap-lib/refs/heads/main/contracts/libraries/FixedPoint.sol';
 
 import '../libraries/SafeMath.sol';
 import '../libraries/EtfswapV2Library.sol';

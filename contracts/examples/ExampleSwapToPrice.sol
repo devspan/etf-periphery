@@ -1,8 +1,8 @@
 pragma solidity =0.6.6;
 
-import '@etfswap/v2-core/contracts/interfaces/IEtfswapV2Pair.sol';
-import '@etfswap/lib/contracts/libraries/Babylonian.sol';
-import '@etfswap/lib/contracts/libraries/TransferHelper.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etf-core/refs/heads/main/contracts/EtfswapV2Pair.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etfswap-lib/refs/heads/main/contracts/libraries/Babylonian.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etfswap-lib/refs/heads/main/contracts/libraries/TransferHelper.sol';
 
 import '../libraries/EtfswapV2LiquidityMathLibrary.sol';
 import '../interfaces/IERC20.sol';

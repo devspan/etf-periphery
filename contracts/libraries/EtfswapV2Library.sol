@@ -1,6 +1,6 @@
 pragma solidity >=0.5.0;
 
-import '@etfswap/v2-core/contracts/interfaces/IEtfswapV2Pair.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etf-core/refs/heads/main/contracts/EtfswapV2Pair.sol';
 
 import "./SafeMath.sol";
 

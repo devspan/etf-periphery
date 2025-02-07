@@ -1,6 +1,6 @@
 pragma solidity =0.6.6;
 
-import '@etfswap/lib/contracts/libraries/TransferHelper.sol';
+import 'https://raw.githubusercontent.com/devetfswap/etfswap-lib/refs/heads/main/contracts/libraries/TransferHelper.sol';
 
 import './interfaces/IEtfswapV2Migrator.sol';
 import './interfaces/V1/IEtfswapV1Factory.sol';
