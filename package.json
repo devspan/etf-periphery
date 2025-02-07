@@ -15,7 +15,7 @@
     "contracts"
   ],
   "dependencies": {
-    "@etfswap/lib": "4.0.1-alpha",
+    "@etfswap/lib": "git+https://github.com/devetfswap/etfswap-lib.git",
     "@etfswap/v2-core": "1.0.0"
   },
   "devDependencies": {
