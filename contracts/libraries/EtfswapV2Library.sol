@@ -21,7 +21,7 @@ library EtfswapV2Library {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f' // init code hash
+                hex'a9900722c1cbe7fb26ab1a54424b83e5cbc4b70dc0c7ad006b2a67b159f35833' // init code hash
             ))));
     }
 
